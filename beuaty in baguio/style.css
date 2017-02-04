@@ -40,7 +40,7 @@ footer{
         
         .image-holder
         {
-            width: 2400px;
+            width: 8000px;
             background-color: red;
             height: 400px;
             clear: both;
@@ -74,6 +74,37 @@ footer{
         {
             left: -1600px;
         }
+		 #slider-image-4:target ~ .image-holder
+        {
+            left: -2400px;
+        }
+        
+        #slider-image-5:target ~ .image-holder
+        {
+            left: -3200px;
+        }
+		#slider-image-6:target ~ .image-holder
+        {
+            left: -4000px;
+        }
+		 #slider-image-7:target ~ .image-holder
+        {
+            left: -4800px;
+        }
+        
+        #slider-image-8:target ~ .image-holder
+        {
+            left: -5600px;
+        }
+		#slider-image-9:target ~ .image-holder
+        {
+            left: -6400px;
+        }
+		 #slider-image-10:target ~ .image-holder
+        {
+            left: -7200px;
+        }
+        
         
         .button-holder
         {
